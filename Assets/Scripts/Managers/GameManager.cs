@@ -1,16 +1,19 @@
 using Enums;
-using Sirenix.OdinInspector;
+using Signals;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     #region Self Variables
+
     #region Serialized Variables
 
     [SerializeField] private GameStates states;
 
     #endregion
+
     #endregion
+
 
     private void Awake()
     {

@@ -36,18 +36,157 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Signals\CoreGameSignals.cs" />
-     <Compile Include="Assets\Scripts\Enums\GameStates.cs" />
-     <Compile Include="Assets\Scripts\Enums\UIPanelTypes.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Property.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Commands\OnLevelDestroyerCommand.cs" />
-     <Compile Include="Assets\Scripts\Commands\OnLevelLoaderCommand.cs" />
-     <Compile Include="Assets\Scripts\Controllers\UIPanelController.cs" />
-     <Compile Include="Assets\Scripts\Interfaces\ICommand.cs" />
+     <Compile Include="Assets\Scripts\Commands\Level\OnLevelLoaderCommand.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Scripts\Keys\HorizontalInputParams.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Signals\InputSignals.cs" />
+     <Compile Include="Assets\Scripts\Handlers\UIEventSubscriber.cs" />
+     <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKRampCreator\MKRampCreator.cs" />
+     <Compile Include="Assets\Scripts\Signals\CameraSignals.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Player\PlayerMovementController.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXEffectController.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Uniforms.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Scripts\Enums\CinemachineLockAxis.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Keywords.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Scripts\Data\ValueObjects\PlayerData.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKTextureChannelPacker\MKTextureChannelPacker.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Player\PlayerPhysicsController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Player\PlayerMeshController.cs" />
      <Compile Include="Assets\Scripts\Data\UnityObjects\CD_Level.cs" />
      <Compile Include="Assets\Scripts\Data\ValueObjects\LevelData.cs" />
+     <Compile Include="Assets\Scripts\Signals\CoreUISignals.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXEffectCycler.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+     <Compile Include="Assets\Scripts\Extensions\MonoSingleton.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXEffectControllerPooled.cs" />
+     <Compile Include="Assets\Scripts\Enums\CinemachineCoreType.cs" />
+     <Compile Include="Assets\Scripts\Data\UnityObjects\CD_Player.cs" />
+     <Compile Include="Assets\Scripts\Data\ValueObjects\InputData.cs" />
+     <Compile Include="Assets\Scripts\Signals\CoreGameSignals.cs" />
+     <Compile Include="Assets\Scripts\Commands\Level\OnLevelDestroyerCommand.cs" />
+     <Compile Include="Assets\Scripts\Data\UnityObjects\CD_Input.cs" />
+     <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\UI\LevelPanelController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Pool\PoolController.cs" />
+     <Compile Include="Assets\Scripts\Commands\Player\ForceBallsToPoolCommand.cs" />
+     <Compile Include="Assets\Scripts\Enums\UIEventSubscriptionTypes.cs" />
+     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Extensions\LookCinemachineAxis.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\ICommand.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKMeshUtility\MKMeshUtility.cs" />
+     <Compile Include="Assets\Scripts\Enums\GameStates.cs" />
+     <Compile Include="Assets\TempAssets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Common.cs" />
+     <Compile Include="Assets\Scripts\Signals\UISignals.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Uniform.cs" />
+     <Compile Include="Assets\Scripts\Controllers\UI\UIPanelController.cs" />
+     <Compile Include="Assets\TempAssets\_MK\MKToon\Scripts\Properties.cs" />
+     <Compile Include="Assets\Scripts\Enums\UIPanelTypes.cs" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardUnlitRefraction.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Core.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TempAssets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Universal2D\Setup.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Lighting.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Pipeline.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Features.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthOnly\Data.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\StylizedWater2.shader" />
+     <None Include="Assets\TempAssets\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardUnlitOutline.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthNormals\ProgramDepthNormals.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesSimpleRefraction.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardUnlit.shader" />
+     <None Include="Assets\TempAssets\Epic Toon FX\Changelog.txt" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Forward\AddSetup.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Lighting.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthNormals\Data.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\ForwardPass.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardSimple.shader" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Tesselation.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Common.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Forward\BaseSetup.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Surface.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Fog.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Universal2D\ProgramUniversal2D.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesUnlit.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Forward\ProgramForward.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthOnly\ProgramDepthOnly.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\WaterTransparencyMask.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\ShadowCaster\Data.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesPBSRefraction.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardPBSOutline.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardSimpleRefraction.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Meta\Setup.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Caustics.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Input.hlsl" />
+     <None Include="Assets\TempAssets\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Common.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesSimple.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Universal2D\Data.hlsl" />
+     <None Include="Assets\TempAssets\Epic Toon FX\Upgrade\URP Compatibility.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Vertex.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardPBSRefraction.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesUnlitRefraction.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Outline\Setup.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\ShadowCaster\ProgramShadowCaster.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Pipeline.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Particles\ParticlesPBS.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\ShadowCaster\Setup.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Meta\Data.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Forward\Data.hlsl" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TempAssets\BOXOPHOBIC\Polyverse Skies\Core\Shaders\Simple.shader" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\UnderwaterShading.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Outline\Data.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardSimpleOutline.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Meta\Common.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TempAssets\BOXOPHOBIC\Polyverse Skies\Generator\Shaders\Rendering Clouds.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Uniform.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthNormals\Setup.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Composite.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\DepthOnly\Setup.hlsl" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\Waves.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Config.hlsl" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TempAssets\BOXOPHOBIC\Polyverse Skies\Core\Shaders\Standard.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Meta\ProgramMeta.hlsl" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\URP\Standard\StandardPBS.shader" />
+     <None Include="Assets\TempAssets\StylizedWater2\Shaders\Libraries\URP.hlsl" />
+     <None Include="Assets\TempAssets\_MK\MKToon\Shader\Lib\Outline\ProgramOutline.hlsl" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -270,11 +409,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Attributes">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    <Reference Include="Sirenix.Utilities.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Serialization.Config">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+    <Reference Include="DemiLib">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
@@ -282,23 +421,23 @@
     <Reference Include="Sirenix.Serialization.AOTGenerated">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    <Reference Include="Sirenix.Serialization.Config">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -648,20 +787,29 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -672,44 +820,41 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
         <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    <Reference Include="Cinemachine">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+        <HintPath>C:\Users\Bora\Bilgi_Picker3D\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -717,9 +862,53 @@
       <Project>{754b173f-3f26-5f39-297a-ef9d4c0c0f74}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{8f9d014c-8686-f6c2-6dcb-739a0ba0ba44}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Editor.csproj">
+      <Project>{f570e8f7-ef42-0ef1-337f-87aecc6703d0}</Project>
+      <Name>Boxophobic.PolyverseSkies.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NonConvexEditor.csproj">
+      <Project>{f78f98d8-d78d-b493-d5e4-66907746079b}</Project>
+      <Name>NonConvexEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{87f72eaf-c8ca-f2cb-70a2-721430f0082b}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{c67d25c5-9c9c-77ae-61ec-7ffeb5f3d3f2}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="sc.stylizedwater2.editor.csproj">
+      <Project>{8caf9d56-15a7-3be2-4d8c-945629e03c8d}</Project>
+      <Name>sc.stylizedwater2.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NonConvexCollider.csproj">
+      <Project>{1db6ebf0-d2f3-6f96-4676-bb506da39f70}</Project>
+      <Name>NonConvexCollider</Name>
+    </ProjectReference>
+    <ProjectReference Include="RuntimeTestAssembly.csproj">
+      <Project>{a0d46289-52ff-17a5-57c8-b06d521f3b1e}</Project>
+      <Name>RuntimeTestAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.csproj">
+      <Project>{a5245912-9009-2535-a753-defd6912919d}</Project>
+      <Name>Boxophobic.PolyverseSkies.Scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="sc.stylizedwater2.runtime.csproj">
+      <Project>{d5bb521d-d15f-f167-7e58-ddfb3ca2954b}</Project>
+      <Name>sc.stylizedwater2.runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="NonConvexColliderRuntimeAPI.csproj">
+      <Project>{3a8eaa1f-50f3-4ef7-df86-eb087ff86707}</Project>
+      <Name>NonConvexColliderRuntimeAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Runtime.csproj">
+      <Project>{6a12a34e-4a8e-b778-f2dc-61307adc9752}</Project>
+      <Name>Boxophobic.PolyverseSkies.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

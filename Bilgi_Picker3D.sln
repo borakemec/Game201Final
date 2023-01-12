@@ -1,11 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{754b173f-3f26-5f39-297a-ef9d4c0c0f74}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2b8bea73-9768-908f-bcf7-437087515ca9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{754b173f-3f26-5f39-297a-ef9d4c0c0f74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.PolyverseSkies.Runtime", "Boxophobic.PolyverseSkies.Runtime.csproj", "{6a12a34e-4a8e-b778-f2dc-61307adc9752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedwater2.runtime", "sc.stylizedwater2.runtime.csproj", "{d5bb521d-d15f-f167-7e58-ddfb3ca2954b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{c67d25c5-9c9c-77ae-61ec-7ffeb5f3d3f2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedwater2.editor", "sc.stylizedwater2.editor.csproj", "{8caf9d56-15a7-3be2-4d8c-945629e03c8d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeTestAssembly", "RuntimeTestAssembly.csproj", "{a0d46289-52ff-17a5-57c8-b06d521f3b1e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConvexCollider", "NonConvexCollider.csproj", "{1db6ebf0-d2f3-6f96-4676-bb506da39f70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.PolyverseSkies.Scripts", "Boxophobic.PolyverseSkies.Scripts.csproj", "{a5245912-9009-2535-a753-defd6912919d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConvexColliderRuntimeAPI", "NonConvexColliderRuntimeAPI.csproj", "{3a8eaa1f-50f3-4ef7-df86-eb087ff86707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{ebd000c8-f03f-4591-8141-c288d10534a4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{8f9d014c-8686-f6c2-6dcb-739a0ba0ba44}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{6118cff6-df12-23b5-5031-f59d5c10c4ab}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonConvexEditor", "NonConvexEditor.csproj", "{f78f98d8-d78d-b493-d5e4-66907746079b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.PolyverseSkies.Editor", "Boxophobic.PolyverseSkies.Editor.csproj", "{f570e8f7-ef42-0ef1-337f-87aecc6703d0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{87f72eaf-c8ca-f2cb-70a2-721430f0082b}"
 EndProject
@@ -14,12 +38,36 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{754b173f-3f26-5f39-297a-ef9d4c0c0f74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{754b173f-3f26-5f39-297a-ef9d4c0c0f74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2b8bea73-9768-908f-bcf7-437087515ca9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2b8bea73-9768-908f-bcf7-437087515ca9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754b173f-3f26-5f39-297a-ef9d4c0c0f74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754b173f-3f26-5f39-297a-ef9d4c0c0f74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6a12a34e-4a8e-b778-f2dc-61307adc9752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6a12a34e-4a8e-b778-f2dc-61307adc9752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d5bb521d-d15f-f167-7e58-ddfb3ca2954b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d5bb521d-d15f-f167-7e58-ddfb3ca2954b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c67d25c5-9c9c-77ae-61ec-7ffeb5f3d3f2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c67d25c5-9c9c-77ae-61ec-7ffeb5f3d3f2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8caf9d56-15a7-3be2-4d8c-945629e03c8d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8caf9d56-15a7-3be2-4d8c-945629e03c8d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a0d46289-52ff-17a5-57c8-b06d521f3b1e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a0d46289-52ff-17a5-57c8-b06d521f3b1e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1db6ebf0-d2f3-6f96-4676-bb506da39f70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1db6ebf0-d2f3-6f96-4676-bb506da39f70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a5245912-9009-2535-a753-defd6912919d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a5245912-9009-2535-a753-defd6912919d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a8eaa1f-50f3-4ef7-df86-eb087ff86707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a8eaa1f-50f3-4ef7-df86-eb087ff86707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ebd000c8-f03f-4591-8141-c288d10534a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ebd000c8-f03f-4591-8141-c288d10534a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8f9d014c-8686-f6c2-6dcb-739a0ba0ba44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8f9d014c-8686-f6c2-6dcb-739a0ba0ba44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6118cff6-df12-23b5-5031-f59d5c10c4ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6118cff6-df12-23b5-5031-f59d5c10c4ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f78f98d8-d78d-b493-d5e4-66907746079b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f78f98d8-d78d-b493-d5e4-66907746079b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f570e8f7-ef42-0ef1-337f-87aecc6703d0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f570e8f7-ef42-0ef1-337f-87aecc6703d0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87f72eaf-c8ca-f2cb-70a2-721430f0082b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87f72eaf-c8ca-f2cb-70a2-721430f0082b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
